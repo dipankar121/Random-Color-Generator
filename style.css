@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    font-family: cursive;
+    background-color: gray;
+}
+
+h1{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap; /*This is used to make our boxes responsive*/
+    justify-content: center;
+}
+
+.color-container{
+    background-color: brown;
+    width: 300px;
+    height: 150px;
+    margin: 5px;
+    color: beige;
+    display: flex; /*The flex property sets the flexible length on flexible items.Note: If the element is not a flexible item, the flex property has no effect.*/    
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5) ;
+    border: solid 2px black;
+    border-radius: 10px;
+}
